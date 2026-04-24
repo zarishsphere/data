@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ncd-management-protocol",
+  "url": "https://zarishsphere.org/fhir/CodeSystem/ncd-management-protocol",
+  "name": "NCDManagementProtocol",
+  "title": "ZarishSphere NCD Management Protocol",
+  "status": "active",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "HTN-DIAG",
+      "display": "Hypertension Diagnosis & Management",
+      "definition": "Logic: Used when SBP 140–159 mmHg and/or DBP 90–99 mmHg"
+    },
+    {
+      "code": "HTN-SEV",
+      "display": "Hypertension Protocol II (Severe)",
+      "definition": "Logic: Used when SBP ≥160 mmHg and/or DBP ≥100 mmHg"
+    },
+    {
+      "code": "T2DM-DIAG",
+      "display": "Type 2 Diabetes Management Protocol",
+      "definition": "Logic: Based on WHO PEN protocol for primary care"
+    }
+  ]
+}
